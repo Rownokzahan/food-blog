@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #ff2a6b;
+    --seconadary-color: #474747;
+    --lightgray: #838383;
+}
+
+body {
+    max-width: 1900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: var(--seconadary-color);
+}
+
+nav{
+    margin:2%;
+}
+nav .navbar-brand {
+    width: max-content;
+    color: var(--primary-color);
+    font-size: 2.7rem;
+}
+
+a.nav-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--seconadary-color);
+    font-weight: 700;
+}
+
+a.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.banner-content {
+    margin: auto;
+    padding: 10px;
+    font-size: 3vmax;
+    font-weight: bold;
+    opacity: 0.9;
+
+    position: absolute;
+    bottom: 45vh;
+    left: 10%;
+    right: 10%;
+}
+.navbar-collapse{
+    justify-content:end;
+}
+.navbar-collapse a{
+    margin-left: 30px;
+    width: max-content;
+}
+.text-bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+@media screen and (max-width: 800px) {}
